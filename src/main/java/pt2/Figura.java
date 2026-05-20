@@ -1,0 +1,5 @@
+package pt2;
+
+interface Figura {
+    void dibujar(Panel panel);
+}
