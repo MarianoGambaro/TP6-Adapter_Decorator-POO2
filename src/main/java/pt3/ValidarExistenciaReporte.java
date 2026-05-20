@@ -2,7 +2,7 @@ package pt3;
 
 import java.io.File;
 
-public class ValidarExistenciaReporte {
+public class ValidarExistenciaReporte implements Exportador {
     private Report report;
 
     public ValidarExistenciaReporte(Report report) {

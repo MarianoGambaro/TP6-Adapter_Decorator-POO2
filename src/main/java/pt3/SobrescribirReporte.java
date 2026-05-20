@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class SobrescribirReporte {
+public class SobrescribirReporte implements Exportador {
     private Report report;
 
     public SobrescribirReporte(Report report) {
